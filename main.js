@@ -17,7 +17,8 @@ recognition.onresult = function run(event) {
     console.log(Content);
 
     document.getElementById("textbox").innerHTML = Content;
-
+    console.log(Content);
+    speak();
 }
 
 function speak ()
